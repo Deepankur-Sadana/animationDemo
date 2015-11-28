@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/darksplash"
+    >
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/master"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Master"/>
+    <TextView
+
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/master"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:gravity="center"
+
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text=" O"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:text="Develop a skill once \n apply it forever"/>
+
+    <ImageView
+        android:id="@+id/planet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/planet"
+        android:layout_alignParentBottom="true"/>
+
+
+    <TextView
+        android:id="@+id/showme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ME HOW"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="#40ffffff"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/rocketsmall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/rocket2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+    <ImageView
+        android:id="@+id/yellow"
+        android:layout_below="@+id/rocketsmall"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/yellow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>
